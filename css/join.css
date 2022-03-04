@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import url(./common/reset.css);
+
+.register{}
+.register .inner-register{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register .inner-register .sign-up{
+  flex: 0 1 500px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+.register .inner-register .sign-up .sign-up-con{
+  border: 1px solid;
+  box-sizing: border-box;
+  /* 아래 세 개 굳이 할 필요는 없다 lh랑 padding 뭐 이런거 주면 되니까 아래에.. */
+  /* display: flex;
+  flex-direction: column;
+  gap: 20px; */
+  padding: 10px 20px;
+}
+.register .inner-register .sign-up .sign-up-con h1.title{
+  border: 1px solid #f00;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding: 20px;
+  text-align: left;
+  font-weight: 400;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form{
+  border: 1px solid #00f;
+  box-sizing: border-box;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul{}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li{
+  border: 1px solid rgb(14, 141, 46);
+  box-sizing: border-box;
+  line-height: 30px;
+  padding: 5px 5px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li label{
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: block;
+  background-color: #ff0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li1{
+  box-shadow: 5px 5px 2px #ccc;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li1 input{
+  display: block;
+  width: 100%;
+  line-height: 30px;
+  box-sizing: border-box;
+  /* border 빼는 거 */
+  border: 0;
+  color: rgb(0, 110, 255);
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li1 input:focus{
+  background-color: #ccc;
+  /* focus에서 border 빼는 거 */
+  outline: 0;
+  color: rgb(0, 110, 255);
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li2{
+  background-color: #f0f;
+  display: flex;
+  border: 4px solid rgb(128, 193, 255);
+  gap: 10px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li2.one{
+  /* line-height: 14px;
+  font-size: 12px; */
+  /* 아래에 줌 */
+  padding: 20px 5px;
+  box-sizing: border-box;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li2.one input{
+  background-color: #f00;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li2.one span{
+  background-color: rgb(0, 255, 13);
+  line-height: 14px;
+  font-size: 12px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li2.one span::after{
+  content: 'Terms & Conditions';
+  line-height: 14px;
+  font-size: 12px;
+  margin-left: 10px;
+  color: rgb(253, 57, 8);
+  font-weight: bold;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form >ul>li.li2.two{
+  
+}
